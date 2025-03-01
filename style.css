@@ -20,6 +20,7 @@ header h1 {
     font-size: 2.5rem;
     margin: 15px;
 }
+
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -29,6 +30,27 @@ header h1 {
 
 a {
     color: inherit;
+}
+
+#mission {
+    display: flex;
+    height: 300px;
+    background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg);
+}
+
+.mission {
+    text-align: center;
+    margin: auto;
+    background-color: #fff;
+    width: 100%;
+}
+
+.mission h2 {
+    font-size: 2rem;
+}
+
+.mission h2, .mission p {
+    margin: 10px auto;
 }
 
 footer {
