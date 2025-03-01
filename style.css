@@ -6,7 +6,7 @@
 
 body {
     font-family: "Lexend Mega", sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     color: #000;
     background-color: #fff;
 }
@@ -35,6 +35,7 @@ a {
 #mission {
     display: flex;
     height: 300px;
+    margin-bottom: 3.5rem;
     background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg);
 }
 
@@ -51,6 +52,41 @@ a {
 
 .mission h2, .mission p {
     margin: 10px auto;
+}
+
+#portfolio {
+    text-align: center;
+}
+
+.portfolio {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.portfolio-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* width: 90%; */
+    margin: 2% auto;
+}
+
+.portfolio-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.portfolio-item img {
+    height: 7rem;
+    width: 10rem;
+    margin: 0 1rem;
+}
+
+.portfolio-item span {
+    min-width: 220px;
 }
 
 footer {
